@@ -14,6 +14,7 @@
 		3A2B2F0F1F0A9D1700717B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B2F0D1F0A9D1700717B47 /* LaunchScreen.storyboard */; };
 		3A2B2F1A1F0A9D1700717B47 /* PreTipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B2F191F0A9D1700717B47 /* PreTipCalculatorTests.swift */; };
 		3A2B2F251F0A9D1700717B47 /* PreTipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B2F241F0A9D1700717B47 /* PreTipCalculatorUITests.swift */; };
+		3A2B2F331F0A9EF300717B47 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B2F321F0A9EF300717B47 /* TipViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3A2B2F201F0A9D1700717B47 /* PreTipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreTipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2B2F241F0A9D1700717B47 /* PreTipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreTipCalculatorUITests.swift; sourceTree = "<group>"; };
 		3A2B2F261F0A9D1700717B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2B2F321F0A9EF300717B47 /* TipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3A2B2F041F0A9D1700717B47 /* AppDelegate.swift */,
 				3A2B2F061F0A9D1700717B47 /* ViewController.swift */,
+				3A2B2F321F0A9EF300717B47 /* TipViewController.swift */,
 				3A2B2F081F0A9D1700717B47 /* Main.storyboard */,
 				3A2B2F0B1F0A9D1700717B47 /* Assets.xcassets */,
 				3A2B2F0D1F0A9D1700717B47 /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					3A2B2F001F0A9D1700717B47 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YWNU8EJSA3;
 						ProvisioningStyle = Automatic;
 					};
 					3A2B2F141F0A9D1700717B47 = {
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A2B2F071F0A9D1700717B47 /* ViewController.swift in Sources */,
+				3A2B2F331F0A9EF300717B47 /* TipViewController.swift in Sources */,
 				3A2B2F051F0A9D1700717B47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,9 +419,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YWNU8EJSA3;
 				INFOPLIST_FILE = PreTipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MKE.PreTipCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myftpupload.8fa.9ac.PreTipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -426,9 +432,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YWNU8EJSA3;
 				INFOPLIST_FILE = PreTipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MKE.PreTipCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myftpupload.8fa.9ac.PreTipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
